@@ -34,9 +34,17 @@ If an essential asset is missing, write the script and plan first,
 then ask only for the missing asset.
 ```
 
+## Production tools
+
+- Talking Photos: Adam's speaking presenter clips using his approved image.
+- CloneVoice: Adam's approved voice, including the observed CloneVoice.ai integration inside Talking Photos.
+- VideoExpress: biblical background footage and supported final assembly.
+
+The Talking Photos Human Video interface was inspected on October 16, 2026. Its high-quality v3.5 modes displayed a one-minute limit per clip. Photo, audio, and voice controls were inspected; rendering and transfer have not yet been tested end to end. The full instructions distinguish verified controls from untested steps.
+
 ## Requirements and limits
 
-- VideoExpress and CloneVoice access with appropriate generation availability.
+- Talking Photos, VideoExpress, and CloneVoice access with appropriate generation availability.
 - A browser-capable agent following its host's authentication and tool rules.
 - Approved Adam likeness and audio assets.
 - Supported lip-sync, overlays, and graphics tools, or an authorized compatible editor.
