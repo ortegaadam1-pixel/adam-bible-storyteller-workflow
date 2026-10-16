@@ -96,6 +96,23 @@ For a presenter image: attach the approved identity reference through the consis
 
 Prefer the visible My CloneVoice.ai Audio import when available. Otherwise use clearly labeled Download and Import controls. Do not use Share to obtain audio. Record exact project and asset identifiers outside prompts. Submit each generation once, wait for completed status, and verify the result belongs to this project. A slow generation does not justify a duplicate submission. Repair only defective assets.
 
+
+## Talking Photos presenter route (verified October 16, 2026)
+
+Talking Photos is the default presenter tool for this adaptation. The upstream repository used VideoExpress native prompted speech and CloneVoice; this Talking Photos route is an intentional modification.
+
+1. Open the authorized session at https://app.talkingphotos.ai/. Choose Create Video > Human Video.
+2. Inspect the currently supported styles. Observed choices: Closeup - High Quality v3.5 (up to one minute), High Quality v3.5 (up to one minute), and Normal v3 (up to five minutes). These are observed UI limits, not permanent guarantees. Prefer a high-quality mode suited to the approved framing, using short presenter segments within its limit. Do not assume Closeup is universally better; verify the actual result.
+3. Choose the intended aspect ratio. Reuse an approved previous character when one is available for that mode, or create a character from Adam's approved likeness. The character view offers an upload, Choose from Media Library, and Use Directly From Library. Prefer using the actual approved photo directly where supported rather than generating a different face. Inspect the current controls and result before advancing. An empty Previous Character list can be specific to the selected mode or ratio; do not conclude that the entire media library is empty.
+4. At Choose Audio, the observed routes are Text to Speech, CloneVoice.ai, Voice Recording, and Import Audio. The CloneVoice.ai integration exposes category, language, saved voice selection, a text field, Boost Similarity, and Import Speech. Verify the exact approved Adam saved voice; never accept the initially selected unrelated voice. Do not claim external audio generation is mandatory when this integration suffices.
+5. For an existing master narration use Import Audio if supported for the intended presenter segment. Alternatively create the presenter segment through the verified CloneVoice.ai integration using Adam's approved voice. Keep the same approved voice for background narration. Inspect available quality settings and listen to the resulting audio; a setting's name does not guarantee better quality.
+6. Do not click Import Speech or Render Video until the actual script, photo, voice, and intended segment are established. Respect generation limits; do not clip audio silently. Review actual speech and lip-sync before rendering remaining segments.
+7. Inspect the Render Video options before using them. Set natural motion appropriate to the lesson where supported. Submit once, track completion, and review the finished presenter clip for likeness, eyes, mouth, hands, delivery, pronunciation, and lip-sync.
+8. Use labeled download/export controls for completed presenter clips and supported import controls in VideoExpress. Verify this transfer path before committing to a full film. The source inspection did not verify rendering, download, or VideoExpress import end to end.
+9. Assemble presenter audio once with the background narration. Do not layer duplicate speech. Complete a short quality sample before scaling to the requested full production. If the output is poor, correct the specific issue and review again rather than declaring it good enough.
+
+No generated video is guaranteed perfect. Review actual media and report limitations candidly; do not call a workflow file or UI inspection a successful video test.
+
 ## 8. Background images and animation prompts
 
 Default biblical footage: cinematic realistic reenactments, believable materials, expressive natural movement, deliberate lighting, grounded historical settings, and consistent color. Follow Adam's requested art style instead when supplied. Do not carry over the original watercolor requirement or construction-story requirement.
