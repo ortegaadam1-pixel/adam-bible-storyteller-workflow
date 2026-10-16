@@ -1,61 +1,49 @@
-# Historical Documentary Video Workflow
+# Adam Ortega Bible Storyteller
 
-Create a documentary that explains **the history of a subject and how it was built**, using a photorealistic presenter introduction followed by animated watercolor scenes.
+A browser-agent workflow for warm, expressive Bible explainer videos with Adam as the spokesperson. It combines his on-camera presence and continuing narration with biblical reenactments, explanatory motion graphics, and readable emphasis text.
 
-## Requirements
+This repository contains instructions, not an executable video application or GitHub Actions automation. Generation requires an agent with access to the relevant apps and supported editing capabilities.
 
-- A browser-capable agent that can follow the instructions in `SYSTEM_PROMPT.md`.
-- Access to [VideoExpress](https://app.videoexpress.ai/) and [CloneVoice](https://app.clonevoice.ai/), with generation access available.
-- Sign in when prompted. The workflow uses the agent's visible built-in browser unless you authorize another browser.
+## Start
 
-This folder contains instructions for browser automation. It is not a standalone executable or a direct API workflow.
+Ask the agent to read [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md), then give a passage or biblical question. Default: approximately three minutes, 16:9, cinematic realistic reenactments. The ordinary planning limit is five minutes unless changed.
 
-## How to use
+Provide an approved presenter reference and an existing authorized Adam voice recording or clone before likeness or voice production. No substitute presenter or narrator is chosen automatically. Scripts and scene planning can proceed while an asset is missing.
 
-1. Load `SYSTEM_PROMPT.md` as the instructions for your browser automation agent, or ask the agent to read and follow that file.
-2. Start the workflow. It asks four questions together:
+## Story and voice
 
-   | Question | Default |
-   |---|---|
-   | Idea/Script | Supply a historical topic or your own script |
-   | Character | Daniel Reed, a fictional male presenter with a calm American English voice |
-   | Ratio | Landscape 16:9; Vertical 9:16 is also supported |
-   | Duration | 60 seconds total, up to 5 minutes |
+Friendly, humble, caring neighbor; plain language and complete flowing sentences; vivid adjectives, sensory detail, and strong verbs; real personal experiences only; Scripture in context; NKJV by default; Jesus-centered hope. The full voice specification is embedded so the workflow remains usable if a separate Adam voice skill is unavailable.
 
-3. Reply with your choices. For example:
+There is no compulsory 20-second introduction. Presenter appearances follow the story. Motion graphics and overlays must be implemented through supported tools and verified, not merely listed in prompts.
 
-   ```text
-   Idea/Script: Explain the history of medieval London Bridge and how it was built.
-   Character: Keep the default.
-   Ratio: Landscape.
-   Duration: 120 seconds.
-   ```
+## First test
 
-4. Let the agent complete generation and timeline assembly. It saves the project and clicks **Export Video**, then stops. It does not download the video.
+Use [TEST_VIDEO_BRIEF.md](TEST_VIDEO_BRIEF.md) as a suggested pilot brief. It is not a claim that a video has been generated. Choose the passage and confirm the presenter and voice assets before affected media generation.
 
-## What it creates
+Example launch request:
 
-**Presenter intro — at least 20 seconds:** A character sheet establishes the presenter. The agent saves it to My AI Images, uses it as a consistent-character reference for a location scene, then generates speaking clips with the same voice description. The intro gives context and introduces the history and construction story.
+```text
+Read SYSTEM_PROMPT.md and run a 60-second pilot Bible explainer.
+Topic: Peter's restoration in John 21:15-19, with his denial as background.
+Central question: Can Jesus still use me after I have failed Him?
+Ratio: Landscape 16:9.
+Use my approved presenter reference and existing authorized voice.
+Include biblical footage, one simple motion graphic, brief emphasis text,
+and a closing return to me. Save and export; do not publish.
+If an essential asset is missing, write the script and plan first,
+then ask only for the missing asset.
+```
 
-**Historical documentary:** Ethan Sterling narration is created in CloneVoice. Watercolor-and-ink visuals illustrate who, when and why, followed by materials, tools, transport and building methods. Clothing, equipment and architecture follow the subject's period and location.
+## Requirements and limits
 
-**Active multi-shot clips:** Prompts use `Total duration` and timed `SHOT 1 / SHOT 2 / SHOT 3` sections, with hard cuts and distinct camera angles. Workers carry, pour, place, compact and build through connected actions. Asset IDs and internal labels stay out of generation text; subtitles and visible shot labels are not requested.
+- VideoExpress and CloneVoice access with appropriate generation availability.
+- A browser-capable agent following its host's authentication and tool rules.
+- Approved Adam likeness and audio assets.
+- Supported lip-sync, overlays, and graphics tools, or an authorized compatible editor.
+- Actual UI capabilities must be checked. The original workflow does not establish that every requested effect is available.
 
-## Audio and video timing
+The workflow reviews script and assembled playback where available, reuses completed assets, follows actual audio timing, saves, and exports. It does not publish, share publicly, or download the final video unless requested.
 
-The requested duration guides the initial script. Once narration is completed, it is reused unchanged: no repeated generation, audio cuts, silence trimming or speed changes to force a target runtime.
+## Origin
 
-The narration starts after the actual intro endpoint. Video coverage extends to the audio clip's right edge. To remove excess footage, the agent places the playhead at that edge, selects the last video clip, clicks **Cut**, and deletes only the excess right-hand video chunk. The final length therefore follows the completed audio plus intro and can differ slightly from the initial estimate.
-
-## Working preferences
-
-- No routine audio/video playback QA or unrequested Share actions.
-- Presenter speech stays audible; documentary clip audio is muted beneath the narration.
-- Reuse completed assets when resuming a production.
-- Edit instructions in place; do not create timestamped backup prompts or unnecessary reports.
-- Generated visuals and voice consistency can vary. Review the saved result before publishing.
-
-## Files
-
-- [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) — instructions the automation agent follows.
-- `README.md` — this short usage guide.
+Adapted from [ai-playbooks/historical-documentary-video-workflow](https://github.com/ai-playbooks/historical-documentary-video-workflow). Replaces the fictional presenter, watercolor construction documentary format, fixed introduction length, and playback prohibition with Adam's Bible storytelling requirements. No software license grant is asserted by this adaptation.
