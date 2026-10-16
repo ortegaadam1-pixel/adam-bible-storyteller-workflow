@@ -32,6 +32,7 @@ For a test, request a 45–55-second pilot strictly below 60 seconds. For a long
 - Caring neighbor voice, humility, expressive storytelling, complete natural sentences, and Jesus-centered hope.
 - NKJV by default; real personal testimony only.
 - Approved actual likeness and saved voice, with no generic substitute or idealized teeth.
+- Generate a matching thumbnail, show it for the first 0.25 seconds, then begin the film and narration. Deliver the thumbnail separately too.
 - Never just a full-screen talking head: supporting footage or meaningful graphics throughout.
 - One measured narration timeline, no duplicate speech, and no speed-up to hide a timing problem.
 - Actual exported-media review and honest reporting of anything unverified.
