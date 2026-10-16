@@ -1,5 +1,5 @@
 # Adam Ortega Bible Storyteller: Master Workflow
-Version 1.0
+Version 1.1
 
 This is the single authoritative production instruction file for this repository. README.md is a launcher. Example briefs and previous films are references, not additional masters. Read this file at the start of every new production and after a requested workflow update. Current user instructions take precedence.
 
@@ -155,7 +155,7 @@ Keep private source files and completed media outside the public repository. Rec
 
 ## 10. Assemble and finish one authoritative edit
 
-Place the complete narration/presenter source at time zero. Confirm the timeline extends through the measured audio endpoint. Verify track stacking visually instead of assuming which numbered track is foreground. Mute unintended background-video speech while keeping narration audible.
+Reserve the first 0.25 seconds for the mandatory thumbnail opening below. Place the complete narration/presenter source at 0.25 seconds, shifting every synchronized visual and audio event together. Confirm the timeline extends through the measured audio endpoint plus the opening. Verify track stacking visually instead of assuming which numbered track is foreground. Mute unintended background-video speech while keeping narration audible.
 
 Match footage and graphics to actual spoken thoughts. Do not confuse library duration formatting with actual media duration; verify playback or metadata when a displayed duration looks implausible.
 
@@ -169,10 +169,21 @@ Use a compatible local editor when exact crops, readable graphics, or precise ti
 
 When a local edit supersedes the VideoExpress export, clearly mark that final file as the current master render in the private production record. The VideoExpress timeline does not automatically acquire local edits. Import the finished cut back into the project media library when feasible, or give one precise transfer step. Retain the editable source/script needed to reproduce the final cut. Never claim the apps and local edit are automatically synchronized.
 
+### Mandatory generated thumbnail and quarter-second opening
+
+For every produced film, generate a deliberate thumbnail that fits the actual Bible story, emotional question, and visual style. Use an available image-generation tool and approved likeness references if Adam appears. Preserve his identity and actual teeth. Do not invent a sensational scene, misleading claim, or promised outcome. Compose for the film's aspect ratio with one clear focal point, strong contrast, and minimal readable text. Add exact lettering through reliable graphic/text tools when needed.
+
+Export the thumbnail as a separate full-resolution image and use that exact image as the film's opening frame. Hold it on screen for **0.25 seconds**, beginning at timestamp 0.00. Show a clean full-frame image with no fade or transition that shortens the hold. Cut directly into the film at 0.25 seconds. Begin narration and the synchronized film content after that hold, shifting their existing timing together by 0.25 seconds. Do not cut off the beginning of a word, duplicate speech, speed up narration, or overwrite the film's first quarter-second.
+
+Use an export frame rate that can represent an exact quarter-second when supported: for example, 24 fps gives 6 frames, or 60 fps gives 15 frames. Do not describe 6 or 7 frames at 25 fps as exactly 0.25 seconds. If the editor cannot represent the requested duration, use a compatible finishing/export route or disclose the precise timing limitation before calling the requirement complete.
+
+Include the 0.25-second opening in the total runtime and per-film duration checks. A pilot must still remain strictly below 60 seconds. Inspect the actual exported first frames and the transition into narration. Deliver the standalone thumbnail with the final video. Do not assume this brief opening automatically sets a platform's thumbnail; uploading or selecting a platform thumbnail is a separate action and publishing remains outside scope.
+
 ## 11. Quality gates before delivery
 
 Check the actual exported file:
-- Full runtime, resolution, aspect ratio, decode integrity, and final endpoint.
+- Generated thumbnail delivered separately and shown full-frame for the first 0.25 seconds; narration begins afterward without lost words or sync changes.
+- Full runtime including the thumbnail opening, resolution, aspect ratio, decode integrity, and final endpoint.
 - No missing sections, black gaps, repeated narration, accidental mute, or cut-off words.
 - No presenter-only intervals during narration.
 - Correct identity and natural-enough eyes, mouth, hands, expression, and posture.
