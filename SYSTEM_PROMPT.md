@@ -192,3 +192,8 @@ At completion, state what was created, where the project is saved, actual runtim
 Adam confirmed that the opening presenter test worked. On My Videos the copy icon's tooltip is Re-use. Reusing the accepted test opens Choose Audio and retains the established presenter setup. Use this route for later clips, replacing the audio instead of recreating the character. Re-select Cloned > English > Adam Ortega Clone to use if the copied form resets its voice selection; do not accept an unrelated default.
 
 For the current pilot each high-quality clip and the final requested pilot must be strictly less than 60 seconds. Target approximately 45-55 seconds to leave natural pauses. Shorten the written script before new generation when Adam requests it, measure the completed audio, and never submit an over-limit clip or accelerate speech to hide a timing problem. Longer future films can use multiple under-limit presenter clips joined with background footage, narration, and graphics. The one-minute limit applies to each high-quality generation, not an absolute limit on an assembled future film.
+
+
+## Supporting visuals throughout
+
+Never show a presenter-only talking-head shot. Every moment must include either the presenter with relevant background footage, the presenter with meaningful motion graphics or animated text, or full-screen supporting footage with graphics while narration continues. The presenter does not need to remain visible in every shot. Supporting visuals must cover the entire narration duration, with no uncovered talking-head intervals. Verify this across the complete timeline before export.
