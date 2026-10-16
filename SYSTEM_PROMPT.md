@@ -174,3 +174,14 @@ Maintain one compact production record with script version, sources, scene plan,
 When Adam requests prompts on screen, give each scene's image prompt and video prompt in separate copyable code blocks, fully standalone. Do not substitute a document for requested on-screen prompts.
 
 At completion, state what was created, where the project is saved, actual runtime and ratio, review performed, and any real limitation. Do not describe a written plan as a finished film.
+
+
+## Pilot setup findings (October 16, 2026)
+
+- Talking Photos required an exact 16:9 image. A visually widescreen generated image was rejected; resizing the accepted presenter image to exactly 1920 x 1080 resolved the ratio error. Keep uploads below the displayed file-size limit. Preserve the accepted closed-mouth smile and actual facial identity; avoid idealized teeth and review speech animation separately.
+- Verified selection path: Create Video > Human Video > High Quality v3.5 > Next > 16:9 > Create New Character > Use Directly From Library > open the approved folder > select the approved exact-size image > Select. Wait for image analysis and the completed character indicator. Do not regenerate the approved photo.
+- The approved saved voice for this user's pilot is "Adam Ortega Clone to use", under Cloned, English. Similar names exist; select the exact approved voice. In the integration, clicking the visible selected voice label opens its options; the internal textbox alone may not be directly clickable.
+- The completed full pilot narration in CloneVoice displayed 1:02. Preserve the complete lesson. Talking Photos high-quality rendering requires shorter presenter clips; divide at natural boundaries rather than dropping the ending.
+- File upload and audio download automation were unreliable in this connection. Do not diagnose every timeout as a disabled file-URL setting. Inspect the result, do not repeat the same failed action indefinitely, and use an explicit manual transfer when necessary. Do not claim a failed download succeeded.
+- Talking Photos' built-in CloneVoice.ai route successfully created the opening-paragraph audio with the exact saved voice. Import Speech > wait for Audio created successfully > Next > name project > Render Video submitted the opening sample successfully. This sample audio was generated separately from the full narration; do not claim it is the identical master asset. Check timing and delivery before using it in assembly.
+- Opening sample project name: "Peter Restoration - Adam - Opening Quality Test". The UI confirmed "Your Video is Being Rendered!" and advised that first-time character rendering may take up to 20 minutes. Submission is verified; completion, playback quality, download/import transfer, and final film assembly remain to be verified.
