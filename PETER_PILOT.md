@@ -1,8 +1,17 @@
-# Peter restoration pilot
+# Peter restoration: reference example
 
-Status: in production. Adam reported the opening quality test worked. Re-use that accepted presenter setup.
+Use [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) for all production decisions. This page is an example story, not a live production-status record or a separate workflow.
 
-## Current script
+## Brief
+
+- Passage: John 21:15–19, with John 18:15–18 and 25–27 as background.
+- Question: Can Jesus still use me after I have failed Him?
+- Pilot target: 45–55 seconds, strictly below 60 seconds.
+- Format: landscape 16:9.
+- Visuals: presenter with meaningful graphics, courtyard reenactment, seaside restoration, and an application graphic.
+- Personal testimony: none invented. Keep repentance, responsibility, and mercy together.
+
+## Example script
 
 Have you ever failed someone you love and wondered whether they could trust you again? That heavy feeling can follow you into the quietest moments.
 
@@ -14,22 +23,8 @@ Beloved Friend, your failure matters, but bring it honestly to Jesus. I need His
 
 If shame has kept you distant, pray today. Tell Jesus the truth, and ask Him to help you follow Him again.
 
-## Measured audio
+## Apply the master
 
-Talking Photos audio element reported 44.515102 seconds for the newly generated shortened script using Cloned > English > Adam Ortega Clone to use. Natural speed; no speed-up applied. This replaces the earlier 62-second version for the current under-60-second pilot.
+Verify Scripture in context before reusing quotations. Generate/measure the approved voice, then time the visual coverage to that audio. Reuse accepted presenter assets privately. Do not copy old timing estimates or assume media is present in a new session.
 
-## Production status
-
-Presenter project: Peter Restoration - Adam - 45 Second Presenter (ID a3968f69-8b84-4d14-84a8-193adaf43e53). Render submitted; Talking Photos still displayed processing at about 18:13 America/New_York on October 16, 2026. Completion and final playback remain to be checked.
-
-VideoExpress project saved as Peter Restoration - Adam - Bible Explainer Pilot. Both 10-second, 1920x1080 background videos are generated and added to track 2: courtyard denial (9e9defaf-f6a1-4786-aa44-ddcf58a9d4de), then seaside restoration (7d014500-eda0-415a-ac6a-b8f04a16bf0b). These are temporary contiguous positions at 0–20 seconds; align them to the narration after importing the presenter.
-
-An editable Lower Third Animation 1 is on track 1 at 0–7.5 seconds, with ADAM ORTEGA and Peter’s Restoration | John 21. The text was visually checked at the 2-second preview after allowing the preview to refresh. Track 3 is empty and available for the continuous presenter. Final presenter import, footage timing, audio review, finishing graphics, and export remain incomplete.
-
-Adam confirms API keys are already installed in all three services. Use existing connections, without asking for or exposing keys. CloneVoice-to-Talking-Photos integration is verified through the successful shortened audio generation. A direct Talking-Photos-to-VideoExpress transfer control has not yet been verified; consult the official tutorial and available native UI rather than assuming a route.
-
-VideoExpress supports up to five concurrent clip generations, as reported by Adam. Queue independent planned clips in batches of up to five and review every result before assembly. Never generate five merely to fill a batch.
-
-## Planned assembly
-
-Use the presenter as the continuous speech source and retain its audio once. Place relevant biblical reenactment footage over the middle explanation, returning to Adam for the application. Add a brief editable Scripture reference and a simple phrase reveal where it helps understanding. Verify final duration stays below 60 seconds. Do not publish.
+A previous production is not proof that a new export has been reviewed. Complete the master's current checks and report any unavailable listening or lip-sync review honestly.
