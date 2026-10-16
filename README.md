@@ -22,7 +22,9 @@ Format: 16:9
 Reuse my approved Talking Photos presenter and my saved CloneVoice
 voice, Adam Ortega Clone to use. Use VideoExpress for supporting
 footage and assembly. Include meaningful supporting visuals throughout.
-Save, finish, and deliver the video for review. Do not publish.
+Save and export the working film for me to download and upload here.
+After I upload it, complete the master's full finishing edit and deliver
+for review. Do not publish.
 ```
 
 For a test, request a 45–55-second pilot strictly below 60 seconds. For a longer film, the master divides presenter generations at natural sentence boundaries within each clip's actual limit.
