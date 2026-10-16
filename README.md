@@ -27,6 +27,16 @@ Save, finish, and deliver the video for review. Do not publish.
 
 For a test, request a 45–55-second pilot strictly below 60 seconds. For a longer film, the master divides presenter generations at natural sentence boundaries within each clip's actual limit.
 
+## Required final-edit handoff
+
+Every production has two stages:
+1. Create the working film in the connected apps. Adam downloads that export and uploads it here.
+2. The agent performs a complete finishing edit on the uploaded file: story/pacing, natural presenter framing, exposure and color, dialogue repair and levels, appropriate SFX/ambience, graphics and motion graphics, accurate captions, thumbnail opening, and final export checks.
+
+Assess every area and apply changes that improve the film. Do not add effects merely to fill a checklist. Preserve Adam's voice, identity, biblical meaning, and natural delivery. Disclose anything that cannot be verified, especially listening and lip sync.
+
+Deliver the finished MP4, standalone thumbnail, and accurate caption sidecar when supported, retaining editable/reproducible sources. The master includes primary research references and detailed finishing instructions.
+
 ## What stays consistent
 
 - Caring neighbor voice, humility, expressive storytelling, complete natural sentences, and Jesus-centered hope.
