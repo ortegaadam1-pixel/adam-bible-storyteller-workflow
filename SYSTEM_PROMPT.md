@@ -1,5 +1,5 @@
 # Adam Ortega Bible Storyteller: Master Workflow
-Version 1.1
+Version 1.2
 
 This is the single authoritative production instruction file for this repository. README.md is a launcher. Example briefs and previous films are references, not additional masters. Read this file at the start of every new production and after a requested workflow update. Current user instructions take precedence.
 
@@ -19,7 +19,7 @@ Defaults:
 - Voice: Cloned > English > exact saved label "Adam Ortega Clone to use".
 - Presenter: the latest approved actual likeness or accepted Talking Photos presenter. Do not use a generic man or recreate an accepted character unnecessarily.
 - Export: full HD 1920 × 1080 MP4, unless a different ratio or format is requested.
-- Save and deliver for review. Do not publish or enable public-gallery sharing.
+- Save the working export, then follow the mandatory user-download/upload handoff and complete finishing pass below. Do not publish or enable public-gallery sharing.
 
 A direct request to make a video authorizes ordinary production, generation, editing, export, and delivery within that request. Do not ask for repeated routine approval. Planning-only requests do not authorize media generation. Respect explicit script locks and approval gates the user actually requests.
 
@@ -153,21 +153,55 @@ After a timeout inspect the actual result once. Retry only when a changed condit
 
 Keep private source files and completed media outside the public repository. Record their references in the current session/private production record, not the reusable master.
 
-## 10. Assemble and finish one authoritative edit
+## 10. Working assembly, user handoff, and mandatory complete finishing edit
 
-Reserve the first 0.25 seconds for the mandatory thumbnail opening below. Place the complete narration/presenter source at 0.25 seconds, shifting every synchronized visual and audio event together. Confirm the timeline extends through the measured audio endpoint plus the opening. Verify track stacking visually instead of assuming which numbered track is foreground. Mute unintended background-video speech while keeping narration audible.
+### Two production stages, one final authority
 
-Match footage and graphics to actual spoken thoughts. Do not confuse library duration formatting with actual media duration; verify playback or metadata when a displayed duration looks implausible.
+The standing handoff is explicit: **Adam downloads the film from the production app and uploads that export to the agent for final editing.** Do not bypass this handoff or treat the app export as the finished deliverable. Do not require automatic downloading or cross-app transfer to succeed before Adam can do this.
 
-Use large readable text, high contrast, safe margins, and clear spelling. Keep graphics away from the face and mouth. Treat emphasis text as emphasis, not verbatim captions. Show exact Bible quotations only after verification, with the correct reference/translation. Never present a paraphrase as a quotation.
+Stage A: prepare the film in Talking Photos, CloneVoice, and VideoExpress; save the editable project and export a working MP4. Tell Adam the exact export to download and upload here. Keep the production record ready for resumption.
 
-Use meaningful graphics: a short phrase, a relationship, a map, a simple sequence, or an application. Prefer consistent colors and restrained motion. Do not cover a long avatar shot with one unchanged lower third and call that a finished visual treatment.
+Stage B: once Adam uploads the film, inspect that actual file, complete the finishing edit described below, validate the resulting export, and deliver it. The uploaded export is the starting source, and the edited deliverable becomes the authoritative final render. Reuse available scripts, timings, and approved media. Do not ask for permission again for ordinary edits already authorized by this standing instruction.
 
-Preview text after moving or resizing animation clips. In the pilot editor, resizing a clip altered its internal animation hold timing unexpectedly. Set/recheck hold duration after final placement and inspect both the middle and end of the overlay. A long timeline block is not proof that its text stays visible.
+Keep the source upload intact locally and preserve source/version history. Save the editable project or reproducible edit recipe and assets when supported. Identify which file is current; a local finishing edit does not automatically update the VideoExpress timeline. Do not claim otherwise or require Adam to upload it back into VideoExpress unless that is useful or requested.
 
-Use a compatible local editor when exact crops, readable graphics, or precise timing cannot be finished reliably in the browser editor. Preserve face geometry and original narration. Do not normalize, denoise, accelerate, or re-encode audio without a reason. Check levels/clipping and keep music optional; do not add music without a request or established project direction.
+### Working assembly before the handoff
 
-When a local edit supersedes the VideoExpress export, clearly mark that final file as the current master render in the private production record. The VideoExpress timeline does not automatically acquire local edits. Import the finished cut back into the project media library when feasible, or give one precise transfer step. Retain the editable source/script needed to reproduce the final cut. Never claim the apps and local edit are automatically synchronized.
+Reserve the first 0.25 seconds for the thumbnail opening below. Place narration and synchronized film content after it, shifting audio and picture together. If the working export does not yet contain the opening, add it during final editing. Detect an existing opening and never insert it twice. Cover the measured narration completely.
+
+Verify track stacking visually; mute unintended generated dialogue, not the intended narration. A media item in the library is not proof it appears on the timeline. Inspect playback/metadata when displayed durations look implausible.
+
+Use a scene/event table tied to actual speech. Text animations must remain visible for their intended interval: resizing a clip altered internal hold timing in the pilot editor, so recheck animation timing after final placement.
+
+### Complete finishing means assessing every area, not applying every filter
+
+Before editing, inspect the uploaded media's duration, resolution, aspect ratio, frame rate, audio tracks, color metadata, existing titles/captions, opening, and ending. Review the whole film with synchronized sound where supported, then inspect defects closely. Create a compact private timecoded issue list and resolve the meaningful issues rather than merely performing a cosmetic export.
+
+Use available editing/analysis tools and verified methods. Research a specific unfamiliar effect, defect, or platform specification from authoritative sources before relying on it. The references at the end are a starting point, not permission to assume tools or standards never change. No software purchase, new subscription, or new narrator is implied.
+
+Perform these passes:
+
+1. **Story, hook, and viewer interest.** After the 0.25-second thumbnail, enter the meaningful question, tension, action, or biblical point promptly. Ensure the opening fulfills the actual title/thumbnail promise. Remove redundant setup, accidental dead time, repeated material, and distracting gaps while retaining natural breaths and emotional pauses. Keep each scene advancing the explanation. Bring a strong relevant moment earlier when it improves understanding without distorting Scripture. Preserve Adam's points, doctrinal qualifications, testimony, and locked wording. Do not invent suspense, withhold necessary truth, add clickbait, or rewrite the message merely for retention. Use a purposeful mix of presenter, action, close view, explanatory graphic, and application; no fixed cut-every-few-seconds rule.
+
+2. **Natural presenter and picture.** Inspect eyes, teeth, mouth, blinks, head motion, posture, hands, frame pacing, and lip sync. Choose clean portions and cover irreparable expressions with meaningful footage or graphics while speech continues. Crop proportionally and use intentional framing/layouts. Correct actual exposure, white-balance, contrast, saturation, and shot-matching problems using scopes/measurements where available. Protect skin tones, facial identity, highlight/shadow detail, and aspect ratio. Do not stretch anatomy, idealize teeth, smooth skin into plastic, sharpen aggressively, fake new expressions, or use optical-flow interpolation that warps faces. Digital correction cannot recreate missing lighting or recover clipped detail; disclose source limitations.
+
+3. **Dialogue and sound repair.** Inspect/listen for clipping, hum, hiss, clicks, plosives, sibilance, uneven levels, harshness, and room tone. Apply targeted noise reduction, EQ, de-essing, gentle compression, fades/crossfades, leveling, or limiting only when warranted. Compare processed and original speech; reject watery, metallic, pumping, muffled, or flattened results. Preserve Adam's saved voice identity, pronunciation, intended emotion, natural pace, and mouth synchronization. Never speed up speech to force a runtime or replace it with another clone. Measure integrated loudness and true peak. A house starting point for web speech is roughly -16 to -14 LUFS integrated with true peaks at or below -1 dBTP, adjusted to the actual mix; these are production choices, not a claimed universal platform requirement. Do not normalize healthy speech unnecessarily.
+
+4. **Sound design and optional music.** Add relevant restrained SFX or ambience when it improves the scene, such as a low fire, gentle water, or a discreet graphic cue. Match timing, perspective, and transitions. Keep all effects below intelligible speech; no whoosh on every cut, jump-scare hit, fake dialogue, or constant noise. Use licensed, authorized, or appropriately generated assets and retain provenance privately. Background music may be used judiciously as part of the authorized complete finishing pass when appropriate, unless Adam has requested no music. Keep it quiet/ducked under speech, respect emotional pauses, and avoid manipulative swells or copyright-uncertain tracks. No effect or music is mandatory simply to prove it was considered.
+
+5. **Titles, overlays, graphics, and motion graphics.** Replace weak or cluttered treatments with a coherent visual system. Use large, high-contrast type, safe margins, clear hierarchy, and readable dwell time on a phone. Keep faces/mouths and important action clear. Animate meaning through restrained reveals, emphasis, a simple sequence, relationship, map, or timeline. Avoid incessant zooms, bouncing text, flashing, decorative clutter, and an unchanged lower third over a long avatar shot. Verify every exact word, Scripture reference, diagram relationship, and historical claim. Add exact lettering with reliable text tools. Never label paraphrase as a Bible quotation.
+
+6. **Captions and subtitles.** Accurate same-language captions are a default deliverable for the finished film. Obtain a transcript from the actual audio with a supported transcription/listening route, compare it with the approved script, and correct names, Bible terms, punctuation, and omissions. Time captions to actual speech and revise timing after cuts or the thumbnail insertion. Do not fabricate word timestamps by dividing the runtime evenly or assume the script matches the generated voice. Use readable phrase groups, ordinarily one or two lines, broken at natural boundaries, with sufficient reading time. Include meaningful non-speech sounds and speaker identification when needed for understanding. Coordinate captions with titles and Scripture graphics to prevent overlap or duplicate text. Deliver a captioned MP4 plus an SRT or VTT sidecar when supported. Translated subtitles are additional only when requested; preserve meaning and review the translation. If speech recognition/listening is unavailable, complete the independent edits, identify captions/audio review as pending, and request only the missing material/action needed. Do not deliver guessed captions as verified.
+
+7. **Ending, thumbnail, and export.** Fulfill the opening's question and finish the thought with a clear compassionate response. Avoid an abrupt last-word cut, excessive end cards, or a long empty tail. Keep the generated thumbnail relevant and include it exactly once for 0.25 seconds at the beginning as specified below. Export in the intended ratio and resolution with clean audio, adequate image quality, and compatible format. Maintain original frame rate unless a deliberate change is needed for the exact thumbnail hold or requested delivery; inspect the conversion for judder and lip-sync shifts. Do not upscale merely to claim higher quality.
+
+Always preserve the mandatory supporting-visual rule throughout narration. Every edit must improve meaning, clarity, emotional connection, accessibility, naturalness, or technical quality. Retention is a goal to test, not an outcome to guarantee.
+
+### Source limitations and honest review
+
+A flattened MP4 may contain burned-in text, missing audio stems, compression, or defective generated faces. Use clean original media/stems when available. Do not blur, crop, or cover so aggressively that the repair becomes more distracting. Request only the specific source that blocks a necessary correction.
+
+A transcript, loudness reading, or contact sheet does not establish listening or synchronized lip-sync review. If the tools cannot support the whole review, do all feasible editing and label the remaining check precisely. Never say "watched and listened" or "fully natural" without that evidence.
 
 ### Mandatory generated thumbnail and quarter-second opening
 
@@ -179,7 +213,7 @@ Use an export frame rate that can represent an exact quarter-second when support
 
 Include the 0.25-second opening in the total runtime and per-film duration checks. A pilot must still remain strictly below 60 seconds. Inspect the actual exported first frames and the transition into narration. Deliver the standalone thumbnail with the final video. Do not assume this brief opening automatically sets a platform's thumbnail; uploading or selecting a platform thumbnail is a separate action and publishing remains outside scope.
 
-## 11. Quality gates before delivery
+## 11. Quality gates after the complete finishing pass
 
 Check the actual exported file:
 - Generated thumbnail delivered separately and shown full-frame for the first 0.25 seconds; narration begins afterward without lost words or sync changes.
@@ -190,6 +224,9 @@ Check the actual exported file:
 - Relevant biblical visuals, continuity, and accurate references.
 - Readable text without collisions, awkward entry/exit, or tiny subtitles.
 - Speech clarity, pronunciation, pacing, sound balance, and lip sync where listening/playback is available.
+- Correct synchronized captions from actual speech, meaningful sound labels, readable line breaks, and no collision with other graphics.
+- Exposure/white-balance/shot consistency, natural skin tones, and no damaging overprocessing.
+- Any added sound/music is authorized, relevant, clear beneath speech, and free of unintended dialogue.
 - A gentle, understandable message that respects the listener and leads toward Jesus.
 
 Review transitions and moments with large mouth openings, smiles, blinks, or gestures closely. Do not claim an avatar is completely natural merely because it rendered. If a check is unavailable, label it pending. Audio-level measurements and a transcript are not listening, and frame samples are not a full synchronized audiovisual review.
@@ -209,6 +246,17 @@ Keep one private production record for each film:
 
 Store credentials only in their intended secure product settings. Do not publish API keys, private file paths, account data, production IDs, signed media links, personal photos, or private run records to this public repository. GitHub holds reusable instructions and generic examples.
 
-Save the editor project and export the requested format. Verify completion and deliver the actual file when tools permit. Stop without publishing. Give a short handoff: what changed, runtime, location, checks performed, and any material limitation. If the user requests prompts, show each scene's standalone image and video prompts in separate copyable code blocks; do not substitute DOCX/PDF files.
+Save the editor project and export the working film for Adam to download and upload here. After that upload, perform the complete finishing pass, validate the edited export, and deliver the finished MP4, standalone thumbnail, and accurate caption sidecar when supported. Preserve the editable source or reproducible edit recipe. State any pending quality checks. Stop without publishing. Give a short handoff: what changed, runtime, location, checks performed, and any material limitation. If the user requests prompts, show each scene's standalone image and video prompts in separate copyable code blocks; do not substitute DOCX/PDF files.
 
 At the next run, read this master again, reuse the approved assets, and start a fresh private production record. Carry improvements into this one master file instead of creating competing prompts or appending contradictory test diaries.
+
+## 13. Research basis and continuing improvement
+
+Consult these primary references as needed. Their guidance informs the workflow; local creative choices and house audio targets are not presented as platform rules.
+
+- [YouTube: Measure key moments for audience retention](https://support.google.com/youtube/answer/9314415?hl=en): check whether the opening matches the title/thumbnail expectation, consider introducing compelling material sooner, and inspect actual retention patterns rather than promising results. A spike can reflect interest or confusion. After Adam supplies analytics or asks for a channel review, use comparable videos and relevant retention data to improve future edits. Do not publish, schedule analytics monitoring, or invent metrics. Highlighted key moments may not be available for a short pilot.
+- [Blackmagic Design official training](https://www.blackmagicdesign.com/products/davinciresolve/training): editorial, color, visual-effects, motion-graphics, and audio-postproduction instruction. Use available tools; this is not a requirement to install or purchase Resolve.
+- [W3C WAI: Captions/Subtitles](https://www.w3.org/WAI/media/av/captions/): synchronize accurate speech and meaningful non-speech information; check automatic captions and avoid obscuring relevant picture content.
+- [FFmpeg filter documentation](https://ffmpeg.org/ffmpeg-filters.html): consult current supported filters and measured loudness/true-peak controls when using a local finishing pipeline. Measurements support technical review, not subjective listening.
+
+Reference review: October 16, 2026. Refresh specific changing requirements when they affect a production. Improve this single master from verified results and Adam's feedback rather than accumulating competing workflow files.
