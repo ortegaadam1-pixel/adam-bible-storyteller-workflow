@@ -29,6 +29,15 @@ for review. Do not publish.
 
 For a test, request a 45–55-second pilot strictly below 60 seconds. For a longer film, the master divides presenter generations at natural sentence boundaries within each clip's actual limit.
 
+
+## Hybrid animated documentary + presenter films
+
+The authoritative [SYSTEM_PROMPT.md](SYSTEM_PROMPT.md) now includes **section 5A**, an optional format that intercuts cinematic animated scenes, the approved Adam Ortega Talking Photos presenter, and brief purposeful picture-in-picture or split-screen moments. Standard Bible-story production remains unchanged.
+
+The [National Evangelism Day 59-second production brief](NATIONAL_EVANGELISM_DAY_FILM_BRIEF.md) includes a draft narration, timed shot plan, character continuity, VideoExpress scene directions, real gospel resource references, and finishing checklist. It is a **production plan, not a rendered video**. Do not publish the result without Adam's instruction.
+
+To use it, tell a browser-capable production agent: "Read SYSTEM_PROMPT.md and NATIONAL_EVANGELISM_DAY_FILM_BRIEF.md. Make the National Evangelism Day animated hybrid film with my approved Talking Photos avatar and cloned voice, and VideoExpress scenes. Export the working MP4 for my review. Do not publish." The app access and export workflow in the master still applies.
+
 ## Required final-edit handoff
 
 Every production has two stages:
